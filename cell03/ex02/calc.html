@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> It’s over 9000</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="calc.css">
 </head>
 <body>
-  <h2>To do or not to do</h2>
-  <button id="newBtn">New</button>
-  <div id="ft_list"></div>
+  <input type="text" id="left" placeholder="Left number">
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select>
+  <input type="text" id="right" placeholder="Right number">
+  <input type="submit" value="Try me!" onclick="calculate()">
 
   <script src="calc.js"></script>
 </body>
