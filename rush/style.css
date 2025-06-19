@@ -1,0 +1,23 @@
+/* Hero section with online background image */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://static.vecteezy.com/system/resources/previews/065/371/360/large_2x/a-snowy-mountain-landscape-with-a-sunset-free-photo.jpeg') center/cover no-repeat;
+}
+
+/* Fix index.html background */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://static.vecteezy.com/system/resources/previews/065/371/360/large_2x/a-snowy-mountain-landscape-with-a-sunset-free-photo.jpeg') center/cover no-repeat;
+}
+
+#contact a:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+#contact i {
+  margin-bottom: 5px;
+}
+
